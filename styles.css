@@ -9,6 +9,26 @@ nav {
 nav ul {
   list-style-type: none;
 }
+
+button {
+  background-color: red;
+  color: black;
+}
+a:hover:button {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  cursor: help;
+}
+a img {
+  width: 100px;
+  height: 100px;
+}
+a:active img {
+  width: 20px;
+  height: 20px;
+}
 a {
   color: black;
   text-decoration: none;
