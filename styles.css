@@ -1,0 +1,58 @@
+/*nav, ul, li
+main, ul, ol, li, dl, dt
+*/
+
+nav {
+  background-color: aquamarine;
+  height: 100px;
+}
+nav ul {
+  list-style-type: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+a:visited {
+  color: red;
+}
+a:active {
+  font-size: 45px;
+  color: purple;
+}
+a:hover {
+  font-size: 30px;
+  color: blue;
+}
+
+main {
+  background-color: aquamarine;
+}
+main ul li {
+  list-style-image: url(./images/dollar.png);
+  margin-left: 100px;
+  line-height: 2;
+  color: green;
+  font-size: 10px;
+  background-color: floralwhite;
+  text-justify: center;
+  list-style-position: outside;
+  padding-left: 40px;
+}
+main ol {
+  list-style-image: url(./images/envelope.png);
+  font-family: "Courier New", Courier, monospace;
+  color: orange;
+  text-align: center;
+  list-style-position: inside;
+}
+dl {
+  color: blue;
+}
+dt {
+  color: darkred;
+}
